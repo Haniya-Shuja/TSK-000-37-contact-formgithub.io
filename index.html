@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous">
+  </script>
+  </head>
+  <body>
+    <div class="container">
+      <span class="big-circle"></span>
+      <img src="img/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <img src="./images/Untitled1.png" alt="pic of women">
+        
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+    <h2>Contact Us</h2>
+<form id="contactForm">
+  <div>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" class="input" required>
+    <span id="nameError" class="error"></span>
+  </div>
+  <div>
+    <label for="email" >Email:</label><br>
+    <input type="email" id="email" name="email" class="input" required>
+    <span id="emailError" class="error"></span>
+  </div>
+  <div>
+    <label for="message" class="input-container">Message:</label><br>
+    <textarea id="message" name="message" rows="4"  class="input" required></textarea>
+    <span id="messageError" class="error"></span>
+  </div>
+  <button type="submit" class="btn">Submit</button>
+</form>
+</div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
